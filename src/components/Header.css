@@ -1,0 +1,46 @@
+header {
+    flex-basis: 15vh;
+    background-image: linear-gradient( #0079b2, #009be4 20%);
+    text-align: center;
+    padding: 2vh;
+}
+
+h1 {
+    font-size: 6vw;
+    line-height: 15vh;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+@media (orientation: portrait) { 
+    header {
+        flex-basis: 10vh;
+    }  
+    h1 {
+        font-size: 10vw;
+        line-height: 10vh;
+    }
+}
+
+@media (min-width:810px) {
+    h1 {
+        font-size: 4.5vw;
+    }
+}
+
+@media (min-width:1200px) {
+    header {
+        border-top-right-radius: 1vw; 
+        border-top-left-radius: 1vw; 
+    }
+    h1 {
+        font-size: 3vw;
+    }
+}
+
+@media (min-height: 1200px) and (orientation: portrait) {
+    header {
+        border-top-right-radius: 1vw; 
+        border-top-left-radius: 1vw; 
+    }
+}

@@ -1,0 +1,40 @@
+.number {
+    display: block;
+    flex-basis: 6vw;
+    height: 6vw;
+    padding: 2vw;
+    border-radius: 50%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    line-height: 6vw;
+    font-size: 3.6vw;
+    box-shadow: 0 0 20px 3px black;
+}
+
+@media (orientation:portrait) {
+    .number {
+        flex-basis:19vw;
+        height: 19vw;
+        line-height: 19vw;
+        font-size: 7.2vw;
+    }
+}
+
+@media (min-width:1200px) {
+    .number {
+        flex-basis: 4vw;
+        height: 4vw;
+        line-height: 4vw;
+        font-size: 3.2vw;
+    }
+}
+
+@media (min-height:1200px) and (orientation:portrait) {
+    .number {
+        flex-basis:13vw;
+        height: 13vw;
+        line-height: 13vw;
+        font-size: 6.6vw;
+}
+}

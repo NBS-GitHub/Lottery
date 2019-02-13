@@ -1,14 +1,35 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @font-face {
+  font-family: "dax";
+  src: url("./fonts/ufonts.com_dax-regular.woff") format('woff');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: "dax-bold";
+  src: url("./fonts/dax-bold-5872e03df1718.woff") format('woff');
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./debut_light.png');
+  overflow: hidden;
+}
+/* 
+========================================================
+ This pattern is downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+ ========================================================
+  */
+
+  #root {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }

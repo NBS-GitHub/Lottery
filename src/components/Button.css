@@ -1,0 +1,49 @@
+.buttonWrapper {
+    flex-basis: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+button {
+    font-size: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1vw 5vw;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 1vw;
+    cursor: pointer;
+    outline:none;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #009be4;
+    border: 2px solid #009be4;
+    color: #fff;
+}
+
+@media (orientation: portrait) {
+    .buttonWrapper {
+        flex-basis: 20vh;
+    }
+    
+    button {
+        font-size: 6vw;
+        padding: 2vw 10vw;
+    }
+}
+
+@media (min-width:1200px) {
+    button {
+        font-size: 2vw;
+    }
+}
+
+@media (min-height:1200px) and (orientation:portrait) {
+    button {
+        font-size: 3.6vw;
+    }
+}
